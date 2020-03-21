@@ -32,11 +32,11 @@ wp_head();
         <div class="header_links">
             <nav class="gnav">
                 <ul class="">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">わたしたちについて</a></li>
-                    <li><a href="#">アクセス</a></li>
-                    <li><a href="#">最新情報</a></li>
-                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="/blog">HOME</a></li>
+                    <li><a href="blog/about">わたしたちについて</a></li>
+                    <li><a href="blog/access">アクセス</a></li>
+                    <li><a href="/blog/#btn btn-default">最新情報</a></li>
+                    <li><a href="blog/contact/">お問い合わせ</a></li>
                 </ul>
             </nav>
 
