@@ -6,6 +6,7 @@
         <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/jumbotron-3@2x.jpg')"></div>
     </div>
     <?php endif; ?>
+    <h3 id="btn btn-default"></h3>
 
     <section class="sec">
         <div class="container">
@@ -26,6 +27,7 @@
             <p class="sec_btn">
                 <a href="" class="btn btn-default">最新情報の一覧<i class="fas fa-angle-right"></i></a>
             </p>
+            
 
         </div>
     </section>
@@ -75,7 +77,7 @@
             </div>
 
             <div class="sec_btn">
-                <a href="" class="btn btn-default">メールフォーム<i class="fas fa-angle-right"></i></a>
+                <a href="<?php echo home_url('/contact/'); ?>" class="btn btn-default">メールフォーム<i class="fas fa-angle-right"></i></a>
             </div>
         </div>
     </section>
