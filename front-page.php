@@ -1,19 +1,19 @@
 <?php get_header(); ?>
     <?php if ( is_home() ): ?>
     <div class="jumbotron">
-        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/jumbotron-1@2x.jpg')"></div>
-        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/jumbotron-2@2x.jpg')"></div>
-        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/jumbotron-3@2x.jpg')"></div>
+        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/main-img02.png')"></div>
+        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/main-img01.png')"></div>
+        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/健康.jpg')"></div>
     </div>
     <?php endif; ?>
-    <h3 id="btn btn-default"></h3>
-
+    
+<h3 id="sec"></h3>
     <section class="sec">
         <div class="container">
             <header class="sec_header">
                 <h2 class="title">最新情報<span>NEWS</span></h2>
             </header>
-
+            
             <div class="row">
                 <?php if ( have_posts() ) : ?>
                     <?php while ( have_posts() ) : the_post(); ?>
@@ -27,7 +27,6 @@
             <p class="sec_btn">
                 <a href="" class="btn btn-default">最新情報の一覧<i class="fas fa-angle-right"></i></a>
             </p>
-            
 
         </div>
     </section>
@@ -37,10 +36,9 @@
             <header class="sec_header">
                 <h2 class="title">店舗情報<span>INFORMATION</span></h2>
             </header>
-
             <div class="row">
                 <div class="col-md-6">
-                    <a href="blog/about" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/bnr_about@2x.jpg')">
+                    <a href="http://magokoro.babymilk.jp/about" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/bnr_about@2x.jpg')">
                         <div class="bnr_inner">
                             わたしたちについて<span>ABOUT</span>
                         </div>
@@ -48,7 +46,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <a href="blog/access" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/bnr_access@2x.jpg')">
+                    <a href="http://magokoro.babymilk.jp/access" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/bnr_access@2x.jpg')">
                         <div class="bnr_inner">
                             アクセス<span>ACCESS</span>
                         </div>
@@ -77,7 +75,7 @@
             </div>
 
             <div class="sec_btn">
-                <a href="<?php echo home_url('/contact/'); ?>" class="btn btn-default">メールフォーム<i class="fas fa-angle-right"></i></a>
+                <a href="http://magokoro.babymilk.jp/contact/" class="btn btn-default">メールフォーム<i class="fas fa-angle-right"></i></a>
             </div>
         </div>
     </section>
